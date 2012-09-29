@@ -2,7 +2,9 @@
     name = Steven Dick
     email = steven@stevendick.me.uk
 [alias]
-    s = status
+    s = status -s -u
+    c = commit
+    co = checkout
 [core]
     autocrlf = input
 	editor = subl -n -w
