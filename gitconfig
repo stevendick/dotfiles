@@ -1,0 +1,18 @@
+[user]
+    name = Steven Dick
+    email = steven@stevendick.me.uk
+[alias]
+    s = status -s -u
+    c = commit
+    co = checkout
+[core]
+    autocrlf = input
+	editor = subl -n -w
+[color]
+    ui = auto
+[github]
+    user = stevendick
+    token = 0d728db43bc654002b32efedaf4739ac
+[http]
+    sslVerify = false
+        
