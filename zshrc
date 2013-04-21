@@ -36,11 +36,14 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 export GRAILS_HOME=~/dist/grails-2.1.1
+export SBT_HOME=~/dist/sbt
 
-export PATH=/home/main/.rbenv/shims:/home/main/.rbenv/bin:/home/main/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$GRAILS_HOME/bin
+export PATH=/home/main/.rbenv/shims:/home/main/.rbenv/bin:/home/main/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$GRAILS_HOME/bin:$SBT_HOME/bin
 
 export TERM=xterm-256color
 
+alias tmuxm="tmux new -s main"
+alias enw="emacs -nw"
 alias e="emacsclient -t"
 alias ec="emacsclient -c"
 alias vi="emacsclient -t"
