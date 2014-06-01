@@ -43,3 +43,8 @@ export EDITOR=emacs
 alias emacs='emacsclient -a "" -t'
 
 alias node="env NODE_NO_READLINE=1 rlwrap node"
+
+if [[ -z "$TMUX" ]]
+then
+  tmux attach || tmux new -s main
+fi
