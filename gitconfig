@@ -6,8 +6,8 @@
     c = commit
     co = checkout
 [core]
-    autocrlf = input
-	editor = subl -n -w
+    autocrlf = false
+    editor = subl -n -w
 [color]
     ui = auto
 [github]
@@ -15,4 +15,3 @@
     token = 0d728db43bc654002b32efedaf4739ac
 [http]
     sslVerify = false
-        
